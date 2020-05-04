@@ -1,0 +1,16 @@
+Source: python-docopt
+Section: devel
+Priority: optional
+Maintainer: Salvador E. Tropea <stropea@inti.gob.ar>
+Build-Depends: debhelper (>=11~), dh-python, python3-all, python3-setuptools
+Standards-Version: 4.1.4
+Homepage: http://docopt.org/
+X-Python3-Version: >= 3.2
+
+Package: python-docopt
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Command-line interface description language
+ Python module to create your command line parser from the source
+ documentation.
